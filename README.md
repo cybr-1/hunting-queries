@@ -22,7 +22,7 @@ Feedback is more than welcome.
 ## 007. Defence Evasion
 ## 008. Cred Access 
 ## 009. Discovery
-- [Network Service Discovery]()
+- [Network Service Discovery](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery/Network%20Service%20Discovery%20-%20T1046)
 ## 010. Lat Movement
 ## 011. Collection
 ## 012. C2
