@@ -15,12 +15,14 @@ Feedback is more than welcome.
 ## 001. Recon
 ## 002. Resource Dev
 ## 003. Initial Access
+- [Valid Accounts](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Acces/Valid%20Accounts%20-%20T1078)
 ## 004. Execution
 ## 005. Persistence
 ## 006. Priv Esc
 ## 007. Defence Evasion
 ## 008. Cred Access 
 ## 009. Discovery
+- [Network Service Discovery]()
 ## 010. Lat Movement
 ## 011. Collection
 ## 012. C2
