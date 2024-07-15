@@ -1,10 +1,11 @@
 - Category: Initial Access
 - Technique: [Valid Accounts](https://attack.mitre.org/techniques/T1078/)
 - Sub Technique: [Cloud Accounts](https://attack.mitre.org/techniques/T1078/004/)
+- ID: T1078.004
 ---
 # Query
 
-## Breakglass Account Sign-In (T1078.004)
+## Breakglass Account Sign-In
 
 This query will hunt and generate alerts on sign ins coming from cloud only breakglass accounts. These accounts should always be monitored. This is to prevent bad actors bypassing security controls and being able to execute anything.
 

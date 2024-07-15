@@ -1,10 +1,11 @@
 - Category: Discovery
 - Technique: [Network Service Discovery](https://attack.mitre.org/techniques/T1046/)
 - Sub Technique: -
+- ID: T1046
 ---
 # Query
 
-## Active NMAP/Zenmap Scanning (T1046)
+## Active NMAP/Zenmap Scanning
 
 This query will hunt for any endpoint that executes the NMAP/Zenmap executable.
 
