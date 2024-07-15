@@ -18,9 +18,12 @@ Feedback is more than welcome.
 - [Valid Accounts](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Acces/Valid%20Accounts%20-%20T1078)
 ## 004. Execution
 ## 005. Persistence
+- [Modify Authentication Process](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Modify%20Authentication%20Process%20-%20T1556)
+- [Valid Accounts](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Valid%20Accounts%20-%20T1078)
 ## 006. Priv Esc
 ## 007. Defence Evasion
-## 008. Cred Access 
+## 008. Cred Access
+- [OS Credential Dumping](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/OS%20Credential%20Dumping%20-%20T1003)
 ## 009. Discovery
 - [Network Service Discovery](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery/Network%20Service%20Discovery%20-%20T1046)
 ## 010. Lat Movement
