@@ -1,10 +1,11 @@
 - Category: Initial Access
 - Technique: [Valid Accounts](https://attack.mitre.org/techniques/T1078/)
 - Sub Technique: [Cloud Accounts](https://attack.mitre.org/techniques/T1078/004/)
+- ID: T1078.004
 ---
 # Query
 
-## Breakglass Account Sign-In (T1078.004)
+## Breakglass Account Sign-In 
 
 This query will look for any modifications to the breakglass accounts listed.
 
