@@ -11,6 +11,7 @@ Feedback is more than welcome.
 ---
 
 # Techniques
+> [!NOTE]
 > Sub-techniques will be populated when queries are published on the repo
 ## 001. Recon
 ## 002. Resource Dev
