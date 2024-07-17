@@ -32,3 +32,4 @@ Feedback is more than welcome.
 ## 012. C2
 ## 013. Exfil
 ## 014. Impact
+- [Inhibit System Recovery](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/014.%20Impact/Inhibit%20System%20Recovery%20-%20T1490)
