@@ -12,7 +12,7 @@ This query will hunt and generate alerts on sign ins coming from cloud only brea
 Breakglass account modification and audit logs should also be monitored, as if compromised could show signs of persistance, priv esc, defence evasion etc. 
 
 ```KQL
-// Define breakglass accounts
+// define breakglass accounts
 let breakglassAccounts = dynamic([
     "<breakglass account 1>",
     "<breakglass account 2>"
