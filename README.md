@@ -19,6 +19,7 @@ Feedback is more than welcome.
 - [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Acces/Valid%20Accounts%20-%20T1078)
 ## 004. Execution
 ## 005. Persistence
+- [Account Manipulation - T1098](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Account%20Manipulation%20-%20T1098)
 - [Create Account - T1136](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Create%20Account%20-%20T1136)
 - [Modify Authentication Process - T1556](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Modify%20Authentication%20Process%20-%20T1556)
 - [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Valid%20Accounts%20-%20T1078)
