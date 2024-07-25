@@ -12,9 +12,6 @@ This query will hunt for any processes that have used `findstr` with any of the 
 
 Adversaries may search local file systems and remote file shares for files containing insecurely stored credentials. These can be files created by users to store their own credentials, shared credential stores for a group of individuals, configuration files containing passwords for a system or service, or source code/binary files containing embedded passwords.
 
-> [!NOTE]
-> There is still many more ways credential hunting can be performed.
-
 ```KQL
 // Define strings, add anymore which could be of use
 let sensitiveStrings = dynamic([
