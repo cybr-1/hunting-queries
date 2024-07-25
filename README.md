@@ -28,6 +28,7 @@ Feedback is more than welcome.
 ## 008. Cred Access
 - [Brute Force - T1110](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/Brute%20Force%20-%20T1110)
 - [OS Credential Dumping - T1003](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/OS%20Credential%20Dumping%20-%20T1003)
+- [Unsecured Credentials](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/Unsecured%20Credentials%20-%20T1552)
 ## 009. Discovery
 - [Network Service Discovery - T1046](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery/Network%20Service%20Discovery%20-%20T1046)
 ## 010. Lat Movement
