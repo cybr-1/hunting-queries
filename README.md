@@ -16,6 +16,7 @@ Feedback is more than welcome.
 ## 001. Recon
 ## 002. Resource Dev
 ## 003. Initial Access
+- [Exploit Public-Facing Application - T1190](https://attack.mitre.org/techniques/T1190)
 - [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Acces/Valid%20Accounts%20-%20T1078)
 ## 004. Execution
 ## 005. Persistence
