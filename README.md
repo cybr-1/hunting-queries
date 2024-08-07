@@ -25,6 +25,7 @@ Feedback is more than welcome.
 - [Modify Authentication Process - T1556](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Modify%20Authentication%20Process%20-%20T1556)
 - [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Valid%20Accounts%20-%20T1078)
 ## 006. Priv Esc
+- [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/006.%20Priv%20Esc/Valid%20Accounts%20-%20T1078)
 ## 007. Defence Evasion
 - [Impair Defences - T1562](https://github.com/cybr-1/hunting-queries/blob/main/ATT%26CK/007.%20Defence%20Evasion/Impair%20Defences%20-%20T1562)
 ## 008. Cred Access
