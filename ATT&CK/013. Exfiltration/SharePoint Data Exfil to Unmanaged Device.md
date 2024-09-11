@@ -1,3 +1,9 @@
+---
+tags:
+  - secops
+  - KQL
+---
+
 **MITRE ATT&CK**
 - Tactic: [Exfiltration](https://attack.mitre.org/tactics/TA0010/)
 - Technique: -
@@ -21,3 +27,4 @@ OfficeActivity
 | extend FileSample = iff(array_length(fileslist) == 1, tostring(fileslist[0]), strcat("SeeFilesListField","_", tostring(hash(tostring(fileslist)))))
 | extend AccountName = tostring(split(UserId, "@")[0]), AccountUPNSuffix = tostring(split(UserId, "@")[1])
 | sort by TimeGenerated desc 
+```

@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Persistence
 - Technique: [Modify Authentication Process](https://attack.mitre.org/techniques/T1556/)
@@ -26,3 +31,4 @@ AuditLogs
 | where TargetGroup in (bypassGroups)
 | project TimeGenerated, Actor, OperationName, Target, TargetGroup, Result
 ```
+

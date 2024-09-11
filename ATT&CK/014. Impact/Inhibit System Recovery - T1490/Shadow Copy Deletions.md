@@ -1,4 +1,10 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
+
 - Category: Impact
 - Technique: [Inhibit System Recovery](https://attack.mitre.org/techniques/T1490/)
 - Sub Technique: -
@@ -36,3 +42,6 @@ DeviceProcessEvents
 | extend HostName = iff(DeviceName has '.', substring(DeviceName, 0, indexof(DeviceName, '.')), DeviceName)
 | extend DnsDomain = iff(DeviceName has '.', substring(DeviceName, indexof(DeviceName, '.') + 1), "")
 ```
+
+
+

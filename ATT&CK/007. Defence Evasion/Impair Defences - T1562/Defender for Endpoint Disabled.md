@@ -1,5 +1,10 @@
+---
+tags:
+  - secops
+  - KQL
+---
 **MITRE ATT&CK**
-- Tactic: Defence Evasion
+- Category: Defence Evasion
 - Technique: [Impair Defences](https://attack.mitre.org/techniques/T1562)
 - Sub Technique: [Disable or Modify Tools](https://attack.mitre.org/techniques/T1562/001/)
 - ID: T1562.001

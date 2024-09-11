@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Persistence
 - Technique: [Account Manipulation](https://attack.mitre.org/techniques/T1098/)
@@ -30,3 +35,4 @@ IdentityDirectoryEvents
 | where GroupModified has_any (targetGroups)
 | project Timestamp, Action, targetGroup = GroupModified,  TargetAccountDisplayName, TargetAccountUpn,  DC=DestinationDeviceName, Actor=AccountUpn, AdditionalFields, ReportId
 ```
+

@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Initial Access
 - Technique: [Valid Accounts](https://attack.mitre.org/techniques/T1078/)
@@ -22,6 +27,8 @@ SigninLogs
   // Limit to non MFA sign-ins
   | extend authenticationStepRequirement = tostring(parse_json(AuthenticationDetails)[0].authenticationStepRequirement)
   | where AuthenticationRequirement != "multiFactorAuthentication"
+  // Remove all signins coming from either a trusted network location or a compliant device
+  | where NetworkLocationDetails == "[]" and DeviceDetail.isCompliant != true
   // Add UserName and UserUPNSuffix for strong entity match
   | extend UserName = split(UserPrincipalName,'@',0)[0], UserUPNSuffix = split(UserPrincipalName,'@',1)[0]
   | extend DeviceId = tostring(DeviceDetail.deviceId)
@@ -29,3 +36,4 @@ SigninLogs
   | project TimeGenerated, UPN=UserPrincipalName, authenticationStepRequirement, AuthenticationRequirement, AuthenticationProtocol, Application=AppDisplayName
   | sort by TimeGenerated desc
 ```
+

@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Persistence
 - Technique: [Create Account](https://attack.mitre.org/techniques/T1136/)
@@ -10,7 +15,7 @@
 
 This query will hunt for local accounts created on endpoints and servers. For example sysadmins often create local accounts to run specific tasks on the device, where the use of an gMSA or MSA would be more suitable. However, as quoted from the definition in ATT&CK, "Adversaries may create a local account to maintain access to victim systems. Local accounts are those configured by an organization for use by users, remote support, services, or for administration on a single system or service."
 
-> [!WARNING]
+> [!warning]-
 > This may bring up false positives a lot of the time, but it is always good to have this alert to help enrich attack stories
 
 ```KQL
@@ -34,3 +39,4 @@ DeviceName
 | extend DeviceType = iff(DeviceId in (WorkStations), 'WorkStation', iff(DeviceId in (Servers), 'Server', 'Other'))
 | project Timestamp, DeviceName, DeviceType, ActionType, AccountDomain, AccountName, AccountSid, DeviceId, ReportId
 ```
+

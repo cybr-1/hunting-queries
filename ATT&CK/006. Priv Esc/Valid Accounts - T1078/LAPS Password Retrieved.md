@@ -1,3 +1,9 @@
+---
+tags:
+  - secops
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Tactic: [Privilege Escalation](https://attack.mitre.org/tactics/TA0004/)
 - Technique: [Valid Accounts](https://attack.mitre.org/techniques/T1078)
@@ -8,7 +14,7 @@
 
 ## LAPS Password Retrieved
 
-Although, this activity is logged by Entra ID by default, generating an alert on password retrieval is always a good practice. This is great to enhance attack stories and entitiy behaviours. 
+Although, this activity is logged by Entra ID by default, generating an alert on password retrieval is always a good practice. This is great to enhance attack stories, and entitiy behaviours. 
 
 ```KQL
 AuditLogs

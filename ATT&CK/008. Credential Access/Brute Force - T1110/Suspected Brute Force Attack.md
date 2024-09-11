@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Credential Access
 - Technique: [Brute Force](https://attack.mitre.org/techniques/T1110/)
@@ -9,9 +14,6 @@
 ## Suspected Brute Force Attack
 
 This query will use the `IdentityLogonEvents` table to look at account logon activity on-prem. It will reference accounts with `WrongPassword` logon failures, linked to brute forcing, and then will lookup when the first successful sign in occurred. 
-
-> [!NOTE]
-> This query technically can cover Password Guessing (T1110.001) and if you set the count lower you may be able to detect Password Spraying (T1110.003)
 
 ```KQL
 // Get users with 50+ WrongPassword logons & record IP addresses

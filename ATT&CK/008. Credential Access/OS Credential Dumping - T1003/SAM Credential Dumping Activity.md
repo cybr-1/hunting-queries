@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Credential Access
 - Technique: [OS Credential Dumping](https://attack.mitre.org/techniques/T1003/)
@@ -18,3 +23,4 @@ DeviceProcessEvents
 | where ProcessCommandLine has_all('save','hklm','sam')
 | project DeviceId, Timestamp, InitiatingProcessId, InitiatingProcessFileName, ProcessId, FileName, ProcessCommandLine
 ```
+

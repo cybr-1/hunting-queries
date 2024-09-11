@@ -1,3 +1,8 @@
+---
+tags:
+  - KQL
+---
+---
 **MITRE ATT&CK**
 - Category: Credential Access
 - Technique: [Unsecured Credentials](https://attack.mitre.org/techniques/T1552/)
@@ -43,3 +48,5 @@ DeviceProcessEvents
     InitiatingProcessFileName,
     InitiatingProcessFolderPath,
     ReportId
+```
+

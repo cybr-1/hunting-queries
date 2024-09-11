@@ -1,3 +1,4 @@
+
 **MITRE ATT&CK**
 
 - Category: Defence Evasion
@@ -11,7 +12,7 @@
 
 ## Defender for Endpoint Registry Tampering
 
-This query will hunt for any tampering with the Defender for Endpoint registry values. It will exclude system and only look for users accounts performing the action to reduce noise and false positives.  
+This query will hunt for any tampering with the Defender for Endpoint ATP registry values. It will exclude system and only look for users accounts performing the action to reduce noise and false positives.  
 
 ```KQL
 DeviceRegistryEvents
@@ -20,3 +21,4 @@ DeviceRegistryEvents
 | project Timestamp, DeviceName, RegistryKey, RegistryValueName, RegistryValueData, InitiatingProcessAccountName, InitiatingProcessFileName, ActionType, DeviceId,ReportId
 | sort by Timestamp desc
 ```
+
