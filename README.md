@@ -10,20 +10,23 @@ Feedback is more than welcome.
 
 ---
 
-# Techniques
+# Tactics
 > [!NOTE]
 > Sub-techniques will be populated when queries are published on the repo
-## 001. Recon
-## 002. Resource Dev
-## 003. [Initial Access](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Access)
-## 004. Execution
-## 005. [Persistence](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence)
-## 006. [Priv Esc](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/006.%20Priv%20Esc)
-## 007. [Defence Evasion](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/007.%20Defence%20Evasion)
-## 008. [Cred Access](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Credential%20Access)
-## 009. [Discovery](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery)
-## 010. [Lat Movement](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/010.%20Lateral%20Movement)
-## 011. Collection
-## 012. [C2](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/012.%20C2)
-## 013. [Exfil](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/013.%20Exfiltration)
-## 014. [Impact](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/014.%20Impact)
+
+| Tactic | ID |
+| :---------------- | :------: |
+| Recon | [TA0043](https://attack.mitre.org/tactics/TA0043) |
+| Resource Dev | [TA0042](https://attack.mitre.org/tactics/TA0042) |
+| [Initial Access](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Access) | [TA0001](https://attack.mitre.org/tactics/TA0001) |
+| Execution | [TA0002](https://attack.mitre.org/tactics/TA0002) |
+| [Persistence](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence) | [TA0003](https://attack.mitre.org/tactics/TA0003) |
+| [Priv Esc](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/006.%20Priv%20Esc) | [TA0004](https://attack.mitre.org/tactics/TA0004) |
+| [Defence Evasion](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/007.%20Defence%20Evasion) | [TA0005](https://attack.mitre.org/tactics/TA0005) |
+| [Cred Access](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Credential%20Access) | [TA0006](https://attack.mitre.org/tactics/TA0006) |
+| [Discovery](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery) | [TA0007](https://attack.mitre.org/tactics/TA0007) |
+| [Lat Movement](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/010.%20Lateral%20Movement) | [TA0008](https://attack.mitre.org/tactics/TA0008) |
+| Collection | [TA0009](https://attack.mitre.org/tactics/TA0009) |
+| [C2](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/012.%20C2) | [TA0011](https://attack.mitre.org/tactics/TA0011) |
+| [Exfil](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/013.%20Exfiltration) | [TA0010](https://attack.mitre.org/tactics/TA0010) |
+| [Impact](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/014.%20Impact) | [TA0040](https://attack.mitre.org/tactics/TA0040) |
