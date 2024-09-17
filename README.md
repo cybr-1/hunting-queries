@@ -10,7 +10,7 @@ Feedback is more than welcome.
 
 ---
 
-# Tactics
+# MITRE ATT&CK
 > [!NOTE]
 > Sub-techniques will be populated when queries are published on the repo
 
@@ -30,3 +30,8 @@ Feedback is more than welcome.
 | [C2](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/012.%20C2) | [TA0011](https://attack.mitre.org/tactics/TA0011) |
 | [Exfil](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/013.%20Exfiltration) | [TA0010](https://attack.mitre.org/tactics/TA0010) |
 | [Impact](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/014.%20Impact) | [TA0040](https://attack.mitre.org/tactics/TA0040) |
+
+---
+
+# Misc Queries
+
