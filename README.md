@@ -2,7 +2,7 @@
 
 ![.](https://i.pinimg.com/originals/da/0b/96/da0b965a91d6a9117ac47710a5e9341c.gif)
 
-This repo will follow the MITRE ATT&CK structure, breaking down each category's main techniques and sub-techniques. 
+This repo will follow the MITRE ATT&CK structure, breaking down each category's main techniques and sub-techniques. There will also be some additional queries placed here that are always handy to have incase a quick search is neeeded.
 
 Feel free to use what you think is useful or what you find as inspo.
 
