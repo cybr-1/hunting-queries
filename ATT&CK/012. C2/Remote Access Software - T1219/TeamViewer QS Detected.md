@@ -6,7 +6,7 @@ tags:
 
 **MITRE ATT&CK**
 
-- Tactic: Command and Control
+- Tactic: [Command and Control](https://attack.mitre.org/tactics/TA0011/)
 - Technique: [Remote Access Software](https://attack.mitre.org/techniques/T1219)
 - Sub Technique: -
 - ID: T1219

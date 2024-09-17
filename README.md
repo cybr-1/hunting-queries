@@ -15,28 +15,15 @@ Feedback is more than welcome.
 > Sub-techniques will be populated when queries are published on the repo
 ## 001. Recon
 ## 002. Resource Dev
-## 003. Initial Access
-- [Exploit Public-Facing Application - T1190](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Acces/Exploit%20Public-Facing%20Applications%20-%20T1190)
-- [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Acces/Valid%20Accounts%20-%20T1078)
+## 003. [Initial Access](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/003.%20Initial%20Access)
 ## 004. Execution
-## 005. Persistence
-- [Account Manipulation - T1098](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Account%20Manipulation%20-%20T1098)
-- [Create Account - T1136](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Create%20Account%20-%20T1136)
-- [Modify Authentication Process - T1556](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Modify%20Authentication%20Process%20-%20T1556)
-- [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence/Valid%20Accounts%20-%20T1078)
-## 006. Priv Esc
-- [Valid Accounts - T1078](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/006.%20Priv%20Esc/Valid%20Accounts%20-%20T1078)
-## 007. Defence Evasion
-- [Impair Defences - T1562](https://github.com/cybr-1/hunting-queries/blob/main/ATT%26CK/007.%20Defence%20Evasion/Impair%20Defences%20-%20T1562)
-## 008. Cred Access
-- [Brute Force - T1110](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/Brute%20Force%20-%20T1110)
-- [OS Credential Dumping - T1003](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/OS%20Credential%20Dumping%20-%20T1003)
-- [Unsecured Credentials - T1552](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Cred%20Access/Unsecured%20Credentials%20-%20T1552)
-## 009. Discovery
-- [Network Service Discovery - T1046](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery/Network%20Service%20Discovery%20-%20T1046)
-## 010. Lat Movement
+## 005. [Persistence](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/005.%20Persistence)
+## 006. [Priv Esc](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/006.%20Priv%20Esc)
+## 007. [Defence Evasion](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/007.%20Defence%20Evasion)
+## 008. [Cred Access](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/008.%20Credential%20Access)
+## 009. [Discovery](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/009.%20Discovery)
+## 010. [Lat Movement](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/010.%20Lateral%20Movement)
 ## 011. Collection
-## 012. C2
-## 013. Exfil
-## 014. Impact
-- [Inhibit System Recovery - T1490](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/014.%20Impact/Inhibit%20System%20Recovery%20-%20T1490)
+## 012. [C2](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/012.%20C2)
+## 013. [Exfil](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/013.%20Exfiltration)
+## 014. [Impact](https://github.com/cybr-1/hunting-queries/tree/main/ATT%26CK/014.%20Impact)
