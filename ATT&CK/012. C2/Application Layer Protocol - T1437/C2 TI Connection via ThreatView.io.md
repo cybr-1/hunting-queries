@@ -11,7 +11,7 @@ tags:
 ---
 # Query Title
 
->[!ATTENTION]
+>[!WARNING]
 > All queries should be tested, tuned and checked before live deployment. This is to prevent any automation running off of incorrect alerts, as well as reducing the overall count of false positives.
 
 This hunting query will use data from [ThreatView.io](https://threatview.io) to lookup DeviceNetworkEvents and match on any activity, that links the IP and C2 host on the feed. 
