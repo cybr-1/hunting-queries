@@ -11,7 +11,11 @@ tags:
 ---
 # Query Title
 
+<<<<<<< HEAD
 >[!WARNING]-
+=======
+>[!WARNING]
+>>>>>>> fb1b0d94196b2e1d27d16a5cc049a1a49a5e14ad
 > All queries should be tested, tuned and checked before live deployment. This is to prevent any automation running off of incorrect alerts, as well as reducing the overall count of false positives.
 
 Adversaries may communicate using OSI application layer protocols to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server.
