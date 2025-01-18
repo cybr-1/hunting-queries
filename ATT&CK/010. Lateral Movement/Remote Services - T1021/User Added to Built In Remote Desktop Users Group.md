@@ -11,7 +11,7 @@ tags:
 ---
 # User Added to BuiltIn\Remote Desktop Users Group
 
->[!WARNING]
+>[!ATTENTION]
 > All queries should be tested, tuned and checked before live deployment. This is to prevent any automation running off of incorrect alerts, as well as reducing the overall count of false positives.
 
 This rule detects when a user account is added to the "Remote Desktop Users" group on a local machine.  This group grants users the ability to log in to the machine remotely using Remote Desktop Protocol (RDP).
